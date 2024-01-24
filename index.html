@@ -24,7 +24,7 @@
         }
     </script>
     <style>
-        .font{
+        .font {
             font-family: "Manrope", sans-serif;
         }
     </style>
@@ -32,6 +32,7 @@
 
 <body class="font">
     <header class="container mx-auto mt-12">
+        <!-- section navbar  -->
         <nav>
             <div class="navbar">
                 <div class="navbar-start">
@@ -43,7 +44,8 @@
                                     d="M4 6h16M4 12h8m-8 6h16" />
                             </svg>
                         </div>
-                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box text-[#424247] font-bold text-base space-y-2 w-24">
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box text-[#424247] font-bold text-base space-y-2 w-24">
                             <li><a class="text-[#FF4240]">Home</a></li>
                             <li><a>About</a></li>
                             <li><a>Pages</a></li>
@@ -51,7 +53,7 @@
                             <li><a>Contact</a></li>
                         </ul>
                     </div>
-                    <a class="text-4xl font-extrabold text-[#131318]">Hockey<span  class="text-[#FF4240]">’</span>s</a>
+                    <a class="text-4xl font-extrabold text-[#131318]">Hockey<span class="text-[#FF4240]">’</span>s</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal text-[#424247] font-bold text-base space-x-11">
@@ -68,6 +70,24 @@
                 </div>
             </div>
         </nav>
+
+        <!-- section Bannar  -->
+        <div class="carousel w-full">
+            <div id="slide1" class="carousel-item relative w-full">
+                <img src="Images/1.png" class="w-full" />
+                <div class="absolute flex items-center transform -translate-x-1/2 left-1/2 lg:left-40 transform translate-y-1/2 bottom-1/4 lg:bottom-20 space-x-8">
+                    <a href="#slide4" class="btn btn-circle bg-[#131318] text-white">❮</a>
+                    <a href="#slide2" class="btn btn-circle bg-[#131318] text-white">❯</a>
+                </div>
+                <div class="bg-[#131318] rounded-2xl p-8 absolute top-3/4 transform -translate-y-2/4 left-1/2 space-y-5">
+                    <h2 class="text-2xl font-extrabold text-[#FFF]">Meet all the heroes from the field</h2>
+                    <p class="text-base font-medium text-[#FFFFFF99]">
+                        Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+                        <br>
+                        turpis placerat dolor. Purus urna in sit nullam proin.</p>
+                </div>
+            </div>
+        </div>
     </header>
     <main></main>
 </body>
